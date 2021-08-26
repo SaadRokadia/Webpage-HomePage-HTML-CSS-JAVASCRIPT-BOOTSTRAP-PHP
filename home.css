@@ -1,0 +1,172 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+header .carousel-inner .item {
+	height: 100vh;
+}
+.navbar-inverse {
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-inverse .navbar-brand {
+	color: #fff;
+	font-size: 40px;
+	padding: 40px 15px;
+	font-weight: 900;
+}
+.nav.navbar-nav.navbar-right {
+	margin: 25px 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+	text-transform: uppercase;
+}
+.banner {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.carousel-caption {
+	padding-bottom: 250px;
+	font-family: poppins;
+}
+.carousel-caption h2 {
+	font-size: 70px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.carousel-caption h2 span {
+	color: #EDBB00;
+}
+.carousel-caption a {
+	background: #EDBB00;
+	padding: 15px 35px;
+	display: inline-block;
+	margin-top: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 25px;
+}
+.carousel-control.right {
+	background-image: none;
+}
+.carousel-control.left {
+	background-image: none;
+}
+.carousel-indicators .active {
+	background-color: #EDBB00;
+	border-color: #EDBB00;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #263238;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+.icons{
+    padding-top: 1rem;
+}
+
+.icons a{
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 0.5rem;
+    color: #f4f4f4;
+}
+
+.company-name{
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+}
+
+
+*, *:after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+section{
+ display:block; 
+ margin-top: 150px;
+}
+
+.contact{
+    text-align: center;
+}
+form{
+    width: 55%;
+    margin: 0 auto;
+}
+input,
+select,
+textarea{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 5px;;
+    border:none;
+    outline-color:#771831;
+}
+
+
+
+
+
+
+
+@media (max-width: 500px){
+    html{
+        font-size: 50%;
+    }
+}    
+
+@media(min-width: 501px) and (max-width: 768px){
+    html{
+    font-size: 50%;
+    }
+}
+
+/*responsive css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption {
+		padding-bottom: 350px;
+	}
+	.carousel-caption h2 {
+		font-size: 50px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.navbar-inverse .navbar-brand {
+		font-size: 30px;
+		padding: 20px 15px;
+	}
+	.navbar-collapse {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.carousel-caption {
+		padding-bottom: 120px;
+	}
+	.carousel-caption h2 {
+		font-size: 25px;
+	}
+	.carousel-caption h3 {
+		font-size: 18px;
+	}
+	.carousel-caption a {
+		padding: 10px 25px;
+	}
+}
